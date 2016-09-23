@@ -18,16 +18,6 @@ window.onload = function(){
         
     }
     
-   
-    /* Dar Enter y crear nueva Tarea 
-    var darEnter = function(event){
-    var keycode = (event.keyCode ? event.keyCode : event.which);
-    if(keycode == '13'){
-        alert("Acabas de presionar Enter");  
-    }
-        }
-    */ 
-    
     //Eventos
     //tareaInput.addEventListener("keydown",darEnter);
     contentAdd.addEventListener("click",crearLista);
